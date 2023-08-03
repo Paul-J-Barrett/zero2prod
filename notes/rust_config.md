@@ -19,7 +19,7 @@
 
 ### Install Cargo things
 
-    cargo install cargo-watch cargo-audit
+    cargo install cargo-watch cargo-audit cargo-expand
 
 #### Example audit
 
@@ -35,4 +35,6 @@ The commands are executed sequentially on success of previous.
 ### Cargo adding dependencies
     cargo add actix-web@4
     cargo add tokio@1
+
+
 
